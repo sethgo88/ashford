@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ashford Application of Admission</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!--<link href="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />-->
+<link href="css/select2.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="intro-page">
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img alt="Brand" src="images/logo_full.png" >
+          </a>
+        </div>
+        <div class="navbar-right">
+          <p class="navbar-text">Application for Admission</p>
+        </div>
+        <div class="navbar-welcome">
+          <h2>Welcome</h2>
+        </div>
+      </div>
+    </nav>
+
+    <!-- full container -->
+    <div class="container-full intro-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>How to become an Ashford student</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <p class="lead">We’re delighted you have chosen to submit an application to Ashford. It only takes three easy steps and about 15 minutes of your time to apply to Ashford.</p>
+          </div><!-- /.col-lg-12 -->
+
+          <div class="col-xs-12 col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-4">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="input-group">
+                  <input type="text" class="form-control start-email" data-placeholder="Let's start with your email" data-mobile-placeholder="Enter Email" data-breakpoint="400">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default email-submit">Submit</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <p class="pull-right text-right">Already have an account?<br class="visible-xs"> <a href="#">Log in here</a></p>
+              </div>
+            </div>
+          </div><!-- /.col-lg-6 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- container -->
+    <div class="container hidden-container">
+      <div class="page-header">
+      </div>
+      
+      <div class="row">
+        <div class="clearfix line-break"></div>
+
+        <div class="col-xs-12">
+          <a name="eligibility"></a>
+          <h2 class="title">Eligibility</h2>
+        </div><!-- /.row -->
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <p>Before we proceed, let's make sure Ashford can offer you courses in your geographic area.</p>
+        </div><!-- /.row -->
+
+        <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-2">
+          <div class="input-group">
+            <input type="text" class="form-control ele-zip" placeholder="Zip Code*" required>
+            <a class="more-info infield" role="button" href="javascript:(0)" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="focus" data-content="Ashford University is accredited by WASC Senior College and University Commission (WSCUC). This accreditation allows us to offer classes in most of the United States. However there are some states that don’t recognize our accreditation. Your zip code tells us if we can offer classes in your geographic area.">?</a>
+          </div>
+          <div class="input-group">
+            <input type="text" class="form-control ele-birth" placeholder="Birth Date* (mm/dd/yyyy)">
+            <a class="more-info infield" role="button" href="javascript:(0)" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="focus" data-content="You must be 18 years of age to apply to Ashford University. If you are under 18 and wish to apply with your parent’s approval, please call the Admissions office at (866) 711-1700.">?</a>
+          </div>
+          <select class="form-control ele-ed" id="education-dd" data-placeholder="I Earned a*">
+            <option></option>
+            <option value="option 2">US High School Diploma</option>
+            <option value="option 2">US GED</option>
+            <option value="option 2">Diploma earned through Home Schooling</option>
+            <option value="option 2">No H.S./60 Credits/2 Year degree</option>
+            <option value="option 2">International HS Diploma</option>
+            <option value="option 2">Diploma from HS on US Military Base</option>
+            <option value="option 2">Unsure/Request Evaluation of Transcripts</option>
+            <option value="option 2">State Certificate for High School Equivalency Exam</option>
+          </select>
+          
+          <div class="radio aff-code">
+            <p>Do you have an Affiliation Code?*</p>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-radio cityes">
+                <input type="radio" name="citradio" > <span>Yes</span>
+              </label>
+              <label class="btn btn-radio citno">
+                <input type="radio" name="citradio" > <span>No</span>
+              </label>
+            </div>
+          </div>
+          <input type="text" style="display: none;" class="form-control affiliation-code" placeholder="Affiliation Code*">
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <button type="button" class="btn btn-default elesave-btn" data-toggle="popover" data-trigger="manual" data-placement="bottom" data-content="Please complete the required (*) fields to continue.">SAVE & CONTINUE</button>
+            </div>
+          </div>
+        </div><!-- /.row -->
+
+        <div class="clearfix line-break"></div>
+
+        <div class="login-hidden" style="display:none">
+          <div class="col-xs-12">
+            <a name="create-login"></a>
+            <h2 class="title">Create a Login</h2>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <a name="create-login"></a>
+            <p>To create an account and effectively process your application, Ashford University must collect your legal name as found on your social security card or other official government issued documents. If you typically use another first name, please enter it in the nickname field.</p>
+          </div><!-- /.row -->
+          <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-2">
+            <input type="email" class="form-control" placeholder="Confirm your email">
+            <input type="password" class="form-control" placeholder="Create your password">
+            <input type="password" class="form-control" placeholder="Confirm your password">
+            <div class="row">
+              <div class="col-xs-12 col-sm-7">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#confirm-modal">CREATE ACCOUNT</button>
+              </div>
+            </div>
+          </div><!-- /.row -->
+        </div>
+        
+      </div><!-- /.row -->
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <h3 class="account-link"><a href="#">YOUR ACCOUNT</a></h3>
+        <p class="copyright">Copyright 2015 Ashford University. All rights reserved. <a href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="confirm-modal" tabindex="-1" role="dialog" aria-labelledby="confirm-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="scroll-panel">
+              <p>
+              By checking this box, I agree that Ashford University (AU) may email me or contact me by telephone and/or text message regarding educational services utilizing automated technology at the telephone number(s) I have provided. I understand this consent is not required to attend AU. If I reside outside the U.S., I consent to the transfer of my data to the U.S. AU's privacy policy governs the submission and handling of this data.    
+              </p>
+            </div>      
+          </div>
+          <div class="modal-footer">
+            <div class="col-xs-12 col-sm-6">
+              <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Cancel</button>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#congrats-modal">CREATE ACCOUNT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="congrats-modal" tabindex="-1" role="dialog" aria-labelledby="confirm-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="wrap">
+              <h2>Congratulations</h2>
+              <p>You have successfully created an on-line account with Ashford University. Your email and password will enable you to complete your application and allow us to get to know you better.</p>
+              <p>If you need to leave the application and return later, simply re-enter your email and password and we'll take you to the portion of your application where you left off.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <a href="personal-info-1.html" type="button" class="btn btn-default">CONTINUE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>-->
+<script src="js/select2.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

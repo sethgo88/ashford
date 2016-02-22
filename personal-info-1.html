@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ashford Application of Admission</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!--<link href="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />-->
+<link href="css/select2.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img class="hidden-xs" alt="Brand" src="images/logo_full.png" >
+            <img class="visible-xs" alt="Brand" src="images/logo_icon.png" >
+          </a>
+        </div>
+        <div class="navbar-right">
+          <p class="navbar-text">Application for Admission</p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-full first-offset">
+      <div class="row steps">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3 active">
+              <a href="javascript:(0)">
+                <h2>
+                  <span>1</span>Personal <br>Information  
+                  <div class="mini-pag">  
+                    <div class="active"></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </h2>
+              </a>
+            </div>
+            <div class="col-xs-3 ">
+              <a href="#" class="inactive" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="focus" data-content="Please complete your current section before moving on to this one."><h2><span>2</span>Education <br>Experience</h2></a>
+            </div>
+            <div class="col-xs-3 ">
+              <a href="#" class="inactive" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="focus" data-content="Please complete your current section before moving on to this one."><h2><span>3</span>Finance <br>Options</h2></a>
+            </div>
+            <div class="col-xs-3 ">
+              <a href="#" class="inactive" data-toggle="popover" data-container="body" data-placement="bottom" data-trigger="focus" data-content="Please complete your current section before moving on to this one."><h2><span>4</span>Final <br>Review</h2></a>
+            </div>
+          </div><!-- /.row -->
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+    <div class="container">
+      <div class="page-header">
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h2 class="title">Tell us about your academic Interest</h2>
+          <p class="">At Ashford University, our flexible degree programs are designed to fit your lifestyle and career goals.  Whether you want to transfer college credits to finish a degree or start your college education, we can help you find the degree program that's right for you.</p>
+          <a class="sidebar-link" href="#">Review AU Catalog</a>
+          <div class="clearfix line-break"></div>
+        </div><!-- /.col -->
+
+        <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-2">
+          <select class="form-control" id="degree-level" data-placeholder="Select Degree Level*">
+            <option></option>
+            <option value="option 3">Associate's Degree</option>
+            <option value="option 4">Bachelor's Degree</option>
+            <option value="option 4">Master's Degree</option>
+            <option value="option 4">Doctoral Degree</option>
+          </select>
+          <div class="input-group clear-input">
+            <input type="text" class="form-control degree-search" placeholder="Degree Program*">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <a href="personal-info-2.html" class="btn btn-default btn-nav">Save and Continue </a>
+            </div>
+          </div>
+        </div><!-- /.col -->
+
+      </div><!-- /.row -->
+
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <h3 class="account-link"><a href="#">YOUR ACCOUNT</a></h3>
+        <p class="copyright">Copyright 2015 Ashford University. All rights reserved. <a href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typehead.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>-->
+<script src="js/select2.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
