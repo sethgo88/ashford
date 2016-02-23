@@ -269,7 +269,8 @@ input.req, select.req, .radio.req label.btn-radio { border-color: red; }
 	.intro-page .navbar-default { background: url(../images/au_graduate_extended.jpg) no-repeat transparent !important; background-size: 991px !important; background-position-y: -15px !important; background-position-x: -74px !important; }
 	.intro-page .navbar-default::after { background: url(../images/mobile_yellow_stripe.png) no-repeat top left transparent !important; background-size: 415px !important; background-position-x: -11px !important; }
 	.navbar-header { float: left; }
-	.intro-page .navbar-brand { top: 27px; left: 15px; }
+	.intro-page .navbar-brand { top: 17px; left: 15px; }
+	.intro-page .navbar-default .navbar-text { margin-top: 17px; }
 	.navbar-right { float: right; }
 
 	.modal-footer > .col-xs-12 { padding: 0px; }
@@ -300,7 +301,7 @@ input.req, select.req, .radio.req label.btn-radio { border-color: red; }
 	.navbar-default { background: url(../images/small_yellow_stripe.png) no-repeat center right #ffffff !important;}
 	.intro-page .navbar-default { background-position-x: -74px !important; }
 	.intro-page .navbar-default::after { background: url(../images/mobile_yellow_stripe.png) no-repeat top left transparent !important; background-size: 415px !important; background-position-x: -11px !important; }
-	.navbar-default .navbar-text { margin-top: 26px; font-size: 17px; width: 200px; line-height: 20px; font-weight: normal; }
+	.navbar-default .navbar-text { margin-top: 16px; font-size: 17px; width: 200px; line-height: 20px; font-weight: normal; }
 
 	.steps .active h2 { font-size: 11px; line-height: 13px; font-weight: bold; }
 	.steps .active br {display: initial; }
